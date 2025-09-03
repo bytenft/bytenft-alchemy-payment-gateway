@@ -5,7 +5,7 @@ if (!defined('BYTENFT_PROTOCOL')) {
 }
 
 if (!defined('BYTENFT_HOST')) {
-    define('BYTENFT_HOST', 'www.bytenft.xyz');
+    define('BYTENFT_HOST', 'pay.bytenft.xyz');
 }
 
 if (!defined('BYTENFT_BASE_URL')) {

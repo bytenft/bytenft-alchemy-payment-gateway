@@ -3,7 +3,7 @@ Contributors: ByteNFT
 Tags: woocommerce, payment gateway, fiat, ByteNFT
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,9 @@ This plugin integrates ByteNFT Payment Gateway with WooCommerce, enabling you to
 Visit the ByteNFT website and log in to your account. Navigate to Developer Settings to generate or retrieve API keys.
 
 == Changelog ==
+
+= 1.0.6 =
+* Updated payment domain to `pay.bytenft.xyz` for improved security and reliability.
 
 = 1.0.5 =
 * Fixed an issue where payment link expired after 30 minutes.
@@ -51,6 +54,9 @@ Visit the ByteNFT website and log in to your account. Navigate to Developer Sett
 
 == Upgrade Notice ==
 
+= 1.0.6 =
+We’ve moved to a new payment domain: `pay.bytenft.xyz`. Please update saved links, API integrations, or whitelists if required.
+
 = 1.0.5 =
 * Fixed payment link expiry, invoice redirection, and email sending issues. 
 
@@ -68,4 +74,4 @@ Initial release.
 
 == Support ==
 
-For support, visit: [https://www.bytenft.xyz/reach-out](https://www.bytenft.xyz/reach-out)
+For support, visit: [https://pay.bytenft.xyz/reach-out](https://pay.bytenft.xyz/reach-out)

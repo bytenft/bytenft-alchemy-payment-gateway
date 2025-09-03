@@ -4,10 +4,10 @@
  * Plugin Name: ByteNFT Payment Gateway
  * Description: This plugin allows you to accept payments in USD through a secure payment gateway integration. Customers can complete their payment process with ease and security.
  * Author: ByteNFT
- * Author URI: https://www.bytenft.xyz/
+ * Author URI: https://pay.bytenft.xyz/
  * Text Domain: bytenft-payment-gateway
  * Plugin URI: 
- * Version: 1.0.5
+ * Version: 1.0.6
  * License: GPLv3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  *
