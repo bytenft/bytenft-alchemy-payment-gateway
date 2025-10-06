@@ -918,6 +918,7 @@ class BYTENFT_PAYMENT_GATEWAY extends WC_Payment_Gateway_CC
 			'billing_country' => $billing_country,
 			'billing_state' => $billing_state,
 			'is_sandbox' => $is_sandbox,
+			'curr_code' => sanitize_text_field($order->get_currency()),
 		];
 	}
 

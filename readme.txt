@@ -3,7 +3,7 @@ Contributors: ByteNFT
 Tags: woocommerce, payment gateway, fiat, ByteNFT
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,6 +53,9 @@ Visit the ByteNFT website and log in to your account. Navigate to Developer Sett
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.7 =
+* Introduces multi-currency support, allowing greater flexibility and a smoother checkout experience for international customers.
 
 = 1.0.6 =
 We’ve moved to a new payment domain: `pay.bytenft.xyz`. Please update saved links, API integrations, or whitelists if required.
