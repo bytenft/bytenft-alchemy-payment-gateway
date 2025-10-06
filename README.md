@@ -131,6 +131,10 @@ The official documentation for this plugin is available at: [https://pay.bytenft
 
 ## Changelog
 
+### Version 1.0.7
+
+- **Currency Support:** Added multi-currency support to provide greater flexibility and improve the checkout experience for international customers.
+
 ## Version 1.0.6
 - Updated payment domain from `www.bytenft.xyz` to `pay.bytenft.xyz`
 - For integrations or firewalls, please update/whitelist the new domain
