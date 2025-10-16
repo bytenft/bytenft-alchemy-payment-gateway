@@ -26,7 +26,7 @@ class BYTENFTALCHEMY_PAYMENT_GATEWAY_REST_API
 	{
 		// Log incoming request with sanitized parameters
 		add_action('rest_api_init', function () {
-			register_rest_route('bytenftalchemy/v1', '/data', array(
+			register_rest_route('bnfttransak/v1', '/data', array(
 				'methods' => 'POST',
 				'callback' => array($this, 'bytenftalchemy_handle_api_request'),
 				'permission_callback' => '__return_true',
