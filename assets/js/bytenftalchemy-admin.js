@@ -1,12 +1,12 @@
 jQuery(document).ready(function ($) {
 
-	if (typeof bytenft_admin_data === 'undefined' || typeof bytenft_admin_data.gateway_id === 'undefined') {
-		console.error('bytenft_admin_data or bytenft_admin_data.gateway_id is not defined. Please ensure wp_localize_script is correctly set up.');
+	if (typeof bytenftalchemy_admin_data === 'undefined' || typeof bytenftalchemy_admin_data.gateway_id === 'undefined') {
+		console.error('bytenftalchemy_admin_data or bytenftalchemy_admin_data.gateway_id is not defined. Please ensure wp_localize_script is correctly set up.');
 		return; // Exit if the required object is not available
 	}
 
 	// Get the payment method ID from the localized object
-	var gatewayId = bytenft_admin_data.gateway_id;
+	var gatewayId = bytenftalchemy_admin_data.gateway_id;
 	var formClass = gatewayId + '-gateway-settings-form';
 	var gatewaySettingsForm = $('form#mainform'); // Common ID for WooCommerce settings forms
 
@@ -329,12 +329,12 @@ jQuery(document).ready(function ($) {
 			$status.removeClass('error success').text('Syncing accounts...').show();
 
 			$.ajax({
-				url: bytenft_admin_data.ajax_url,
+				url: bytenftalchemy_admin_data.ajax_url,
 				method: 'POST',
 				dataType: 'json',
 				data: {
 					action: `${id}_manual_sync`, // assuming different action per gateway (optional)
-					nonce: bytenft_admin_data.nonce
+					nonce: bytenftalchemy_admin_data.nonce
 				},
 				success: function (response) {
 					if (response.success) {
