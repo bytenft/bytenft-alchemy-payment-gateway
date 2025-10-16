@@ -1,13 +1,13 @@
 <?php
 // config.php
-if (!defined('BYTENFT_PROTOCOL')) {
-    define('BYTENFT_PROTOCOL', is_ssl() ? 'https://' : 'http://');
+if (!defined('BYTENFTALCHEMY_PROTOCOL')) {
+    define('BYTENFTALCHEMY_PROTOCOL', is_ssl() ? 'https://' : 'http://');
 }
 
-if (!defined('BYTENFT_HOST')) {
-    define('BYTENFT_HOST', 'pay.bytenft.xyz');
+if (!defined('BYTENFTALCHEMY_HOST')) {
+    define('BYTENFTALCHEMY_HOST', 'pay.bytenft.xyz');
 }
 
-if (!defined('BYTENFT_BASE_URL')) {
-	define('BYTENFT_BASE_URL', BYTENFT_PROTOCOL . BYTENFT_HOST);
+if (!defined('BYTENFTALCHEMY_BASE_URL')) {
+	define('BYTENFTALCHEMY_BASE_URL', BYTENFTALCHEMY_PROTOCOL . BYTENFTALCHEMY_HOST);
 }

@@ -1,8 +1,8 @@
 <?php
 
-function bytenft_migrate_old_settings() {
+function bytenftalchemy_migrate_old_settings() {
     // First, check if beta option exists
-    $beta_accounts = get_option('woocommerce_bytenft_payment_gateway_accounts');
+    $beta_accounts = get_option('woocommerce_bytenftalchemy_payment_gateway_accounts');
 
     if ($beta_accounts) {
         $beta_accounts = maybe_unserialize($beta_accounts);
@@ -19,13 +19,13 @@ function bytenft_migrate_old_settings() {
             }, $beta_accounts);
 
             // Save updated accounts back
-            update_option('woocommerce_bytenft_payment_gateway_accounts', serialize($enhanced_accounts));            
+            update_option('woocommerce_bytenftalchemy_payment_gateway_accounts', serialize($enhanced_accounts));            
             return; // Migration complete for beta
         }
     }
 
-    // Fallback to legacy `woocommerce_bytenft_settings`
-    $old_settings = get_option('woocommerce_bytenft_settings');
+    // Fallback to legacy `woocommerce_bytenftalchemy_settings`
+    $old_settings = get_option('woocommerce_bytenftalchemy_settings');
     $old_settings = maybe_unserialize($old_settings);
     if (!$old_settings || !is_array($old_settings)) {
         return; // Nothing to migrate
@@ -60,9 +60,9 @@ function bytenft_migrate_old_settings() {
         ]
     ];
 
-    update_option('woocommerce_bytenft_payment_gateway_accounts', serialize($new_accounts));
+    update_option('woocommerce_bytenftalchemy_payment_gateway_accounts', serialize($new_accounts));
     
 }
 
 // Hook migration to plugin activation
-register_activation_hook(BYTENFT_PAYMENT_GATEWAY_FILE, 'bytenft_migrate_old_settings');
+register_activation_hook(BYTENFTALCHEMY_PAYMENT_GATEWAY_FILE, 'bytenftalchemy_migrate_old_settings');
