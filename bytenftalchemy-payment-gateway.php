@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: ByteNFT Payment Gateway
+ * Plugin Name: ByteNFT Alchemy Payment Gateway
  * Description: This plugin allows you to accept payments in USD through a secure payment gateway integration. Customers can complete their payment process with ease and security.
  * Author: ByteNFT
  * Author URI: https://pay.bytenftalchemy.xyz/
