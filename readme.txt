@@ -1,17 +1,17 @@
-=== ByteNFT Payment Gateway ===
-Contributors: ByteNFT
-Tags: woocommerce, payment gateway, fiat, ByteNFT
+=== ByteNFT Alchemy Payment Gateway ===
+Contributors: ByteNFT Alchemy
+Tags: woocommerce, payment gateway, fiat, ByteNFT Alchemy
 Requires at least: 5.0
 Tested up to: 6.8
 Stable tag: 1.0.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-The ByteNFT Payment Gateway plugin for WooCommerce 8.9+ allows you to accept fiat payments to sell products on your WooCommerce store.
+The ByteNFT Alchemy Payment Gateway plugin for WooCommerce 8.9+ allows you to accept fiat payments to sell products on your WooCommerce store.
 
 == Description ==
 
-This plugin integrates ByteNFT Payment Gateway with WooCommerce, enabling you to accept fiat payments. 
+This plugin integrates ByteNFT Alchemy Payment Gateway with WooCommerce, enabling you to accept fiat payments. 
 
 == Installation ==
 
@@ -23,7 +23,7 @@ This plugin integrates ByteNFT Payment Gateway with WooCommerce, enabling you to
 
 = How do I obtain API keys? =
 
-Visit the ByteNFT website and log in to your account. Navigate to Developer Settings to generate or retrieve API keys.
+Visit the ByteNFT Alchemy website and log in to your account. Navigate to Developer Settings to generate or retrieve API keys.
 
 == Changelog ==
 

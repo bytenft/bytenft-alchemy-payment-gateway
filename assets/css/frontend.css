@@ -4,7 +4,7 @@
     margin: 0;
   }
 
-.bytenft-loader {
+.bytenftalchemy-loader {
   position: fixed;
   display: none;
   left: 0;
@@ -15,7 +15,7 @@
   z-index: 9999;
 }
 
-.bytenft-loader img {
+.bytenftalchemy-loader img {
   margin: auto;
   position: absolute;
   top: 0;
@@ -26,7 +26,7 @@
   border-radius: 100%;
 }
 
-.bytenft-loader-background {
+.bytenftalchemy-loader-background {
   display: none;
   position: fixed;
   top: 0;
@@ -52,8 +52,8 @@
 .consent-banner button {
   margin: 0 10px;
 }
-#bytenft-payment-popup,
-#bytenft-pending-popup {
+#bytenftalchemy-payment-popup,
+#bytenftalchemy-pending-popup {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
@@ -64,7 +64,7 @@
   justify-content: center;
 }
 
-.bytenft-modal-content {
+.bytenftalchemy-modal-content {
   position: relative;
   background: #fff;
   height: 600px;
@@ -77,11 +77,11 @@
   text-align: center;
 }
 
-/* #bytenft-payment-popup {
+/* #bytenftalchemy-payment-popup {
   position: relative;
 } */
 
-#bytenft-payment-popup h3 {
+#bytenftalchemy-payment-popup h3 {
   color: #000000;
   font-size: 20px;
   font-weight: 600;
@@ -89,7 +89,7 @@
   text-align: center;
 }
 
-#bytenft-payment-popup .process-btn {
+#bytenftalchemy-payment-popup .process-btn {
   background: #000;
   color: #fff;
   font-size: 14px;
@@ -101,7 +101,7 @@
   cursor: pointer;
 }
 
-#bytenft-payment-popup .close {
+#bytenftalchemy-payment-popup .close {
   position: absolute;
   top: 12px;
   right: 12px;
@@ -113,14 +113,14 @@
   cursor: pointer;
 }
 
-#bytenft-payment-popup .option-sec {
+#bytenftalchemy-payment-popup .option-sec {
   border: 1px solid #D0D5DA;
   border-radius: 7px;
   padding: 20px 14px;
   margin-bottom: 12px;
 }
 
-#bytenft-payment-popup .option-lable {
+#bytenftalchemy-payment-popup .option-lable {
   background: #F5F7FF;
   border: 1px solid #BCBDCF;
   border-radius: 10px;
@@ -131,7 +131,7 @@
   margin-right: 5px;
 }
 
-#bytenft-payment-popup .option-sec h6 {
+#bytenftalchemy-payment-popup .option-sec h6 {
   color: #000;
   font-size: 13px;
   font-weight: 600;
@@ -140,13 +140,13 @@
   align-items: center;
 }
 
-#bytenft-payment-popup .option-sec .email-info {
+#bytenftalchemy-payment-popup .option-sec .email-info {
   display: flex;
   align-items: center;
   margin-top: 16px;
 }
 
-#bytenft-payment-popup .option-sec .email-info p {
+#bytenftalchemy-payment-popup .option-sec .email-info p {
   font-size: 12px;
   font-weight: 500;
   text-align: left;
@@ -156,7 +156,7 @@
   margin-top: 0;
 }
 
-#bytenft-payment-popup .option-sec .qr-code {
+#bytenftalchemy-payment-popup .option-sec .qr-code {
   background: #e9e9e940;
   border: 1px solid #E9E9E980;
   box-shadow: 0px 0px 20px 0px #0000000D inset;
@@ -168,7 +168,7 @@
   margin-top: 20px;
 }
 
-#bytenft-payment-popup .option-sec .qr-text {
+#bytenftalchemy-payment-popup .option-sec .qr-text {
   color: #3C4043;
   font-size: 11px;
   font-weight: 500;
@@ -176,7 +176,7 @@
   text-align: center;
 }
 
-#bytenft-payment-popup .option-sec .send-link-text {
+#bytenftalchemy-payment-popup .option-sec .send-link-text {
   color: #6B6B6B;
   font-size: 10px;
   font-weight: 500;
@@ -184,7 +184,7 @@
   margin-bottom: 16px;
 }
 
-#bytenft-payment-popup .option-sec label {
+#bytenftalchemy-payment-popup .option-sec label {
   color: #3C4043;
   font-size: 11px;
   text-align: left;
@@ -193,11 +193,11 @@
   display: block;
 }
 
-#bytenft-payment-popup .option-sec .input-group {
+#bytenftalchemy-payment-popup .option-sec .input-group {
   position: relative;
 }
 
-#bytenft-payment-popup .option-sec .form-control {
+#bytenftalchemy-payment-popup .option-sec .form-control {
   border: 1px solid #D0D5DA;
   border-radius: 5px;
   padding: 10px 13px 10px 41px;
@@ -205,7 +205,7 @@
   font-size: 12px;
 }
 
-#bytenft-payment-popup .option-sec .input-group .input-icon {
+#bytenftalchemy-payment-popup .option-sec .input-group .input-icon {
   position: absolute;
   left: 8px;
   top: 4px;
@@ -213,17 +213,17 @@
   padding-right: 5px;
 }
 
-#bytenft-payment-popup .box-sec {
+#bytenftalchemy-payment-popup .box-sec {
   display: flex;
   gap: 16px;
 }
 
-#bytenft-payment-popup .box_item {
+#bytenftalchemy-payment-popup .box_item {
   flex: 1 1 46%;
   min-width: 220px;
 }
 
-#bytenft-payment-popup .tabs {
+#bytenftalchemy-payment-popup .tabs {
   display: flex;
   gap: 10px;
   margin-top: 10px;
@@ -231,7 +231,7 @@
   margin-bottom: 16px;
 }
 
-#bytenft-payment-popup .tab {
+#bytenftalchemy-payment-popup .tab {
   cursor: pointer;
   font-size: 11px;
   font-weight: 500;
@@ -240,12 +240,12 @@
   border-bottom: 2px solid transparent;
 }
 
-#bytenft-payment-popup .tab.active {
+#bytenftalchemy-payment-popup .tab.active {
   border-color: #8264D7;
   color: #000;
 }
 
-#bytenft-payment-popup .footer-note {
+#bytenftalchemy-payment-popup .footer-note {
   text-align: center;
   font-size: 13px;
   color: #6e6e73;
@@ -260,7 +260,7 @@
   }
 }
 
-#bytenft-payment-popup .spinner-border {
+#bytenftalchemy-payment-popup .spinner-border {
   display: inline-block;
   border: 3px solid #392DCA;
   border-radius: 50%;
@@ -271,7 +271,7 @@
   vertical-align: text-bottom;
 }
 
-#bytenft-payment-popup .subtitle {
+#bytenftalchemy-payment-popup .subtitle {
   font-size: 12px;
   color: #4D4D4D;
   font-weight: 500;
@@ -279,20 +279,20 @@
   text-align: center;
 }
 
-#bytenft-payment-popup .stepper {
+#bytenftalchemy-payment-popup .stepper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
 }
 
-#bytenft-payment-popup .step {
+#bytenftalchemy-payment-popup .step {
   flex: 1;
   text-align: center;
   position: relative;
 }
 
-#bytenft-payment-popup .step:not(:last-child)::after {
+#bytenftalchemy-payment-popup .step:not(:last-child)::after {
   content: '';
   position: absolute;
   top: 8px;
@@ -303,7 +303,7 @@
   z-index: 0;
 }
 
-#bytenft-payment-popup .icon {
+#bytenftalchemy-payment-popup .icon {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -317,64 +317,64 @@
   background: #fff;
 }
 
-#bytenft-payment-popup .success-sec{
+#bytenftalchemy-payment-popup .success-sec{
   background-color: #28c76f;
   color: white;
 }
 
-#bytenft-payment-popup .pending .icon {
+#bytenftalchemy-payment-popup .pending .icon {
   background-color: #f0f0f0;
   color: #999999;
 }
 
-#bytenft-payment-popup .step-title {
+#bytenftalchemy-payment-popup .step-title {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 4px;
 }
 
-#bytenft-payment-popup .step-description {
+#bytenftalchemy-payment-popup .step-description {
   font-size: 13px;
   color: #6e6e73;
   line-height: 1.4;
 }
 
 @media (max-width: 600px) {
-  #bytenft-payment-popup .stepper {
+  #bytenftalchemy-payment-popup .stepper {
     flex-direction: column;
     align-items: center;
   }
 
-  #bytenft-payment-popup .step {
+  #bytenftalchemy-payment-popup .step {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #bytenft-payment-popup .step:not(:last-child)::after {
+  #bytenftalchemy-payment-popup .step:not(:last-child)::after {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
-  #bytenft-payment-popup .box-sec {
+  #bytenftalchemy-payment-popup .box-sec {
     flex-direction: column;
   }
 }
 
-#bytenft-payment-popup .thank-you-msg, #bytenft-payment-popup .failed-msg{
+#bytenftalchemy-payment-popup .thank-you-msg, #bytenftalchemy-payment-popup .failed-msg{
   background: #FAFAFA;
   border-radius: 15px;
   text-align: center;
   margin-top: 35px;
   padding: 20px 20px;
 }
-#bytenft-payment-popup .thank-you-msg h4, #bytenft-payment-popup .failed-msg h4{
+#bytenftalchemy-payment-popup .thank-you-msg h4, #bytenftalchemy-payment-popup .failed-msg h4{
   font-size: 18px;
   font-weight: 600;
   color: #000;
   margin-top: 20px;
 }
-#bytenft-payment-popup .thank-you-msg p, #bytenft-payment-popup .failed-msg p{
+#bytenftalchemy-payment-popup .thank-you-msg p, #bytenftalchemy-payment-popup .failed-msg p{
   font-size: 12px;
   font-weight: 500;
   color: #4D4D4D;
@@ -382,11 +382,11 @@
   line-height: 20px;
 }
 
-#bytenft-payment-popup .failed-icon {
+#bytenftalchemy-payment-popup .failed-icon {
   background-color: #E23A45;
   color: white;
 }
-#bytenft-send-link-msg {
+#bytenftalchemy-send-link-msg {
 	font-weight: 500;
 }
 
@@ -397,7 +397,7 @@
 	text-align: center;
 	vertical-align: middle;
 }
-#bytenft-payment-popup .option-sec .email-info .email-icon {
+#bytenftalchemy-payment-popup .option-sec .email-info .email-icon {
 	background-image: url('../images/email-icon.png');
 	width: 33px;
 	height: 30px;

@@ -1,11 +1,11 @@
-# ByteNFT Payment Gateway
+# ByteNFT Alchemy Payment Gateway
 
-The ByteNFT Payment Gateway plugin for WooCommerce 8.9+ allows you to accept fiat payments to sell products on your WooCommerce store.
+The ByteNFT Alchemy Payment Gateway plugin for WooCommerce 8.9+ allows you to accept fiat payments to sell products on your WooCommerce store.
 
 ## Plugin Information
 
-**Contributors:** ByteNFT  
-**Tags:** woocommerce, payment gateway, fiat, ByteNFT  
+**Contributors:** ByteNFT Alchemy  
+**Tags:** woocommerce, payment gateway, fiat, ByteNFT Alchemy  
 **Requires at least:** 6.2  
 **Tested up to:** 6.7  
 **Stable tag:** 1.0.6  
@@ -14,13 +14,13 @@ The ByteNFT Payment Gateway plugin for WooCommerce 8.9+ allows you to accept fia
 
 ## Support
 
-For any issues or enhancement requests with this plugin, please contact the ByteNFT support team. Ensure you provide your plugin, WooCommerce, and WordPress version where applicable to expedite troubleshooting.
+For any issues or enhancement requests with this plugin, please contact the ByteNFT Alchemy support team. Ensure you provide your plugin, WooCommerce, and WordPress version where applicable to expedite troubleshooting.
 
 ## Getting Started
 
 1. Download and install the plugin from [GitHub](https://github.com/bytenft/bytenft-payment-gateway).
 2. Activate it via **Plugins > Installed Plugins** in your WordPress dashboard.
-3. Go to **WooCommerce > Settings > Payments > ByteNFT** to configure:
+3. Go to **WooCommerce > Settings > Payments > ByteNFT Alchemy** to configure:
    - API Key & Secret
    - Sandbox/Live Mode
    - Multiple account support
@@ -38,7 +38,7 @@ For any issues or enhancement requests with this plugin, please contact the Byte
 
 ## 1. Download Plugin from GitHub
 
-- Visit the GitHub repository for the ByteNFT Payment Gateway plugin at [GitHub Repository URL](https://github.com/bytenft/bytenft-payment-gateway).
+- Visit the GitHub repository for the ByteNFT Alchemy Payment Gateway plugin at [GitHub Repository URL](https://github.com/bytenft/bytenft-payment-gateway).
 - Download the plugin ZIP file to your local machine.
 
 ## 2. Install the Plugin in WordPress
@@ -53,11 +53,11 @@ For any issues or enhancement requests with this plugin, please contact the Byte
 
 - Log in to your WordPress Admin Dashboard.
 - Go to **Plugins > Installed Plugins**.
-- Find **ByteNFT Payment Gateway** and click **Activate**.
+- Find **ByteNFT Alchemy Payment Gateway** and click **Activate**.
 
-## 4. Obtain API Keys from ByteNFT
+## 4. Obtain API Keys from ByteNFT Alchemy
 
-- Log in to your [ByteNFT account](https://pay.bytenft.xyz).
+- Log in to your [ByteNFT Alchemy account](https://pay.bytenft.xyz).
 - Go to the **Developer Settings** section.
 - Generate or copy your API credentials:
   - **Live Public Key**
@@ -71,13 +71,13 @@ For any issues or enhancement requests with this plugin, please contact the Byte
   Go to `WooCommerce` > `Settings`.
 - **Access the Payments Tab:**
   Click on the `Payments` tab at the top of the settings page.
-- **Select ByteNFT Payment Gateway:**
-  Scroll down to find and select the ByteNFT Payment Gateway among the available payment methods.
+- **Select ByteNFT Alchemy Payment Gateway:**
+  Scroll down to find and select the ByteNFT Alchemy Payment Gateway among the available payment methods.
 
 - **Add Plugin General Details:**
-    - **Title** : ByteNFT Payment Gateway
+    - **Title** : ByteNFT Alchemy Payment Gateway
     Description
-    - **Description** : Secure payments with ByteNFT Payment Gateway.
+    - **Description** : Secure payments with ByteNFT Alchemy Payment Gateway.
     - **Enable/Disable Sandbox Mode** : Toggle sandbox mode per account.
     - **Payment Accounts (Add Multiple Accounts)** : 
         - **Adding a New Account**
@@ -94,9 +94,9 @@ For any issues or enhancement requests with this plugin, please contact the Byte
 - **Save Changes:**
   Click `Save changes` at the bottom of the page to update and save your API key settings.
 
-## 6. Place Order via ByteNFT Payment Option
+## 6. Place Order via ByteNFT Alchemy Payment Option
 
-1. Customer places an order and selects **ByteNFT Payment Gateway**.
+1. Customer places an order and selects **ByteNFT Alchemy Payment Gateway**.
 2. A secure **popup window** opens with 3 payment options:
    - Send payment link to the customer's checkout email
    - Scan a QR code to pay from another device
@@ -117,12 +117,12 @@ For any issues or enhancement requests with this plugin, please contact the Byte
 - **Verify Order Status:**
   Log in to your WordPress Admin Dashboard.
   Navigate to `WooCommerce` > `Orders` to view all orders.
-  Check for the latest orders placed using the ByteNFT Payment Gateway to verify their status.
+  Check for the latest orders placed using the ByteNFT Alchemy Payment Gateway to verify their status.
 
 ### Notes
 
 - No crypto or wallet setup is required for buyers.
-- The payment flow is secure and offloaded to ByteNFT.
+- The payment flow is secure and offloaded to ByteNFT Alchemy.
 - Great for physical, digital, or tokenized product stores.
 
 ## Documentation
@@ -188,12 +188,12 @@ The official documentation for this plugin is available at: [https://pay.bytenft
 
 ### Version 1.0.1 (Initial Release)
 
-- **Initial Release:** Launched the ByteNFT Payment Gateway plugin with core payment integration functionality for WooCommerce.
+- **Initial Release:** Launched the ByteNFT Alchemy Payment Gateway plugin with core payment integration functionality for WooCommerce.
 
 ## Support
 
 For customer support, visit: [https://pay.bytenft.xyz/reach-out](https://pay.bytenft.xyz/reach-out)
 
-## Why Choose ByteNFT Payment Gateway?
+## Why Choose ByteNFT Alchemy Payment Gateway?
 
-With the ByteNFT Payment Gateway, you can easily transfer fiat payments to sell products. Choose ByteNFT Payment Gateway as your WooCommerce payment gateway to access your funds quickly through a powerful and secure payment engine provided by ByteNFT.
+With the ByteNFT Alchemy Payment Gateway, you can easily transfer fiat payments to sell products. Choose ByteNFT Alchemy Payment Gateway as your WooCommerce payment gateway to access your funds quickly through a powerful and secure payment engine provided by ByteNFT Alchemy.
